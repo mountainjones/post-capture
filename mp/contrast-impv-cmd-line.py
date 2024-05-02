@@ -1,4 +1,7 @@
-import cv2, os, sys, piexif
+import cv2
+import os
+import piexif
+import sys
 
 # example input:
 #    C:\dev\true-capture\single-use-or-testing>python contrast-impv-cmd-line.py C:\w\191103133610_0323292N1009086W.JPG

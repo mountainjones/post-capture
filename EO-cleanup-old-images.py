@@ -1,7 +1,9 @@
-import io, os, string, datetime
-from datetime import date
+import datetime
+import io
+import os
 from tkinter import Tk
 from tkinter.filedialog import askopenfilename
+
 Tk().withdraw()
 
 fileDataname = askopenfilename(initialdir = "C:/Users/pi/Documents/POSPac MMS/",title = "Select EO file",filetypes=[("TXT files","*.txt")])

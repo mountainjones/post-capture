@@ -1,7 +1,7 @@
 import os
+import time
 from tkinter import Tk
 from tkinter.filedialog import askdirectory
-import time
 
 tiffName = str(int(time.time())) + '.tif'  # Assign a unique value to the filename and append a "tif" suffix
 

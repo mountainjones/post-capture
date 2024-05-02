@@ -1,10 +1,12 @@
-import numpy as np
-import cv2
-#from Tkinter import Tk
-#from tkFileDialog import askdirectory
-import os
-import piexif
 import datetime
+# from Tkinter import Tk
+# from tkFileDialog import askdirectory
+import os
+
+import cv2
+import numpy as np
+import piexif
+
 adate = datetime.datetime.now()
 numimg = 0
 totimg = 0

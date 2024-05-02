@@ -1,10 +1,10 @@
-import piexif
-from tkinter import Tk
-from tkinter.filedialog import askdirectory
 import os
 import shutil
-
 from datetime import datetime
+from tkinter import Tk
+from tkinter.filedialog import askdirectory
+
+import piexif
 
 adate = datetime.now()
 cdate = adate.strftime("%Y%m%d%H%M")

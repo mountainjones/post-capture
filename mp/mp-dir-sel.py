@@ -1,10 +1,14 @@
-from multiprocessing import Pool
+import io
 import multiprocessing as mp
-import os,io
+import os
+from datetime import datetime
+from multiprocessing import Pool
 from tkinter import Tk
 from tkinter.filedialog import askdirectory
-from datetime import datetime
-import requests, platform
+
+import platform
+import requests
+
 
 def worker(inputstring):
     os.system(inputstring)

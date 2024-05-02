@@ -1,6 +1,9 @@
 #python3
-import os, sys, pytz, platform, requests
-from datetime import date, time, datetime
+import os
+import requests
+import sys
+from datetime import datetime
+
 
 def left(s, amount):
     return s[:amount]
@@ -13,7 +16,6 @@ def logwriter(project):
     print(project)
 
     url = "https://aptus-oms.priusintelli.com/logz/"
-    import json
 
     data = {
     "computer": 'dell-anchor',

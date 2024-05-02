@@ -1,11 +1,12 @@
 #https://www.google.com/maps/@32.8147017,-97.3223419,15z
 # CLEAN UP BAD GPS WITH ERROR HANDLING
 
+import datetime
+import os
+
 import piexif
 from Tkinter import Tk
 from tkFileDialog import askdirectory
-import os
-import datetime
 
 global vFnum
 vFnum=""

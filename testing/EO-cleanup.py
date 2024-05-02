@@ -1,9 +1,9 @@
-import io, os, string, datetime
-from datetime import date
-
+import datetime
+import io
+import os
 from tkinter import
-import tkinter.filedialog
 from tkinter.filedialog as fd
+
 Tk().withdraw()
 
 fileDataname = fd.askopenfilename(initialdir = "D:\GPS\PosPac-Projects", title = "Select EO file",filetypes=[("TXT files", "*.txt")])

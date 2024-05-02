@@ -1,12 +1,10 @@
-import os
 import datetime
-
+import os
+from shutil import copyfile
 # REQUIRES A CSV FILE WITH SIMPLE FILENAMES AND ONE HEADER LINE
 from tkinter import Tk
 from tkinter.filedialog import askdirectory
 from tkinter.filedialog import askopenfilename
-
-from shutil import copyfile
 
 # Open a dialog box to select a file
 Tk().withdraw()

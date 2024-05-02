@@ -25,7 +25,6 @@ cv2.waitKey(0)
 
 '''
 import cv2
-import numpy as np
 
 img = cv2.imread('C:\Users\josh\Desktop/vignette/0319761N1033751W190527143152.JPG')
 img_yuv = cv2.cvtColor(img, cv2.COLOR_BGR2YUV)

@@ -1,9 +1,6 @@
-import shutil
-from Tkinter import Tk
-from tkFileDialog import askdirectory
-import os
-import glob
 import datetime
+import os
+import shutil
 from shutil import copyfile
 
 # save .p4d file

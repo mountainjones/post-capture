@@ -1,10 +1,10 @@
-import cv2
-import os
-import piexif
 import datetime
-
+import os
 from tkinter import Tk
 from tkinter.filedialog import askdirectory
+
+import cv2
+import piexif
 
 
 def histomagic(inputimg):

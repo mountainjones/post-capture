@@ -1,9 +1,10 @@
+import datetime
+import os
+import random
+
 import piexif
 from Tkinter import Tk
 from tkFileDialog import askdirectory
-import os
-import datetime
-import random
 
 inputs = 0
 keeps = 0

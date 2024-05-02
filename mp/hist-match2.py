@@ -24,7 +24,8 @@ matched = match_histograms(image, reference, channel_axis = -1)
                            ##multichannel=True)
 
 fig, (ax1, ax2, ax3) = plt.subplots(nrows=1, ncols=3,
-                                    figsize=(8, 3),
+                                    ##figsize=(8, 3),
+                                    figsize=(28, 10),
                                     sharex=True, sharey=True)
 
 for aa in (ax1, ax2, ax3):
@@ -56,4 +57,4 @@ axes[0, 1].set_title('Reference')
 axes[0, 2].set_title('Matched')
 
 plt.tight_layout()
-plt.show()
+##plt.show()

@@ -21,14 +21,14 @@ import image_dehazer
 # def worker (HazeImg):
 
     # if __name__ == "__main__":
-HazeImg = cv2.imread("E:\\stage\MM012166\\muenster-4804-12166\muenster-10\\4804-hst\\cap-1217_cal_clip.jpg")  # read input image -- (**must be a color image**)
-HazeCorrectedImg, haze_map = image_dehazer.remove_haze(HazeImg, C1=200, boundaryConstraint_windowSze=70, showHazeTransmissionMap=False)  # Remove Haze
+HazeImg = cv2.imread("E:\\stage\\MM012166\\code_compare\\4804-code-contrasted\sample-4804\\C2166-08412_cal_clip.jpg")  # read input image -- (**must be a color image**)
+HazeCorrectedImg, haze_map = image_dehazer.remove_haze(HazeImg,delta=.1, sigma=.4, regularize_lambda=.05, showHazeTransmissionMap=False)  # Remove Haze
 
         ##cv2.imshow('haze_map', haze_map);						# display the original hazy image
         ##cv2.imshow('enhanced_image', HazeCorrectedImg);			# display the result
         ##cv2.waitKey(0)
 
-cv2.imwrite("E:\\stage\MM012166\\muenster-4804-12166\muenster-10\\4804-hst\\cap-1217_cal_dh.jpg", HazeCorrectedImg)
+cv2.imwrite("E:\\stage\\MM012166\\code_compare\\4804-code-contrasted\sample-4804\\C2166-08412_cal_clip_dh.jpg", HazeCorrectedImg)
     # return
 
 
